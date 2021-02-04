@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div className="container-fluid">
 				<a className="navbar-brand" href="#">
-					Navbar
+					StartBootstrap
 				</a>
 				<button
 					className="navbar-toggler"
@@ -30,21 +30,17 @@ const Navbar = () => {
 						</li>
 						<li classNamE="nav-item">
 							<a className="nav-link" href="#">
-								Features
+								About
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Pricing
+								Services
 							</a>
 						</li>
 						<li className="nav-item">
-							<a
-								className="nav-link disabled"
-								href="#"
-								tabindex="-1"
-								aria-disabled="true">
-								Disabled
+							<a className="nav-link" href="#">
+								Contact
 							</a>
 						</li>
 					</ul>

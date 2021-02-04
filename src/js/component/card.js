@@ -1,11 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const card = () => {
+const card = props => {
 	return (
 		<div className="card col-3">
 			<img
 				className="card-img-top"
-				src="https://picsum.photos/id/237/200/200"
+				src={props.link}
 				alt="Card image cap"
 			/>
 			<div className="card-body">
@@ -20,6 +21,10 @@ const card = () => {
 			</div>
 		</div>
 	);
+};
+
+card.propTypes = {
+	link: PropTypes.string
 };
 
 export default card;
