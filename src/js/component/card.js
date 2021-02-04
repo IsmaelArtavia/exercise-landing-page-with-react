@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const card = props => {
 	return (
-		<div className="card col-3">
+		<div className="card tarjeta">
 			<img
 				className="card-img-top"
 				src={props.link}
@@ -16,7 +16,7 @@ const card = props => {
 					up the bulk of the cards content.
 				</p>
 				<a href={"#"} className="btn btn-primary">
-					Go somewhere
+					Find Our More!
 				</a>
 			</div>
 		</div>

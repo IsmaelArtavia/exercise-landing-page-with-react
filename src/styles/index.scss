@@ -12,3 +12,27 @@
 
 */
 
+.contenedor{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+.tarjeta{
+
+margin-bottom: 2%;
+width: 22%;
+
+}
+
+.textoFooter{
+    width: 20%;
+    color:white;
+    margin: 0 auto;
+
+}

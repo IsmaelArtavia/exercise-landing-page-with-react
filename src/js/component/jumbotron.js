@@ -13,7 +13,7 @@ const Jumbotron = () => {
 
 			<p className="lead">
 				<a className="btn btn-primary btn-lg" href="#" role="button">
-					Learn more
+					Call to action!
 				</a>
 			</p>
 		</div>
